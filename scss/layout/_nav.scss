@@ -4,7 +4,7 @@
     width: 100%;
     z-index: 9999;
     background-color: white;
-    padding: 12px, 0;
+    padding: 12px;
 
     .main-nav-holder {
         @include flexbox;
@@ -21,7 +21,7 @@
     }
 
     %mobile-controls {
-        font-size: 28px;
+        font-size: 14px;
         line-height: 50px;
         cursor: pointer;
     }
@@ -57,7 +57,7 @@
             list-style: none;
 
             .menu-item {
-                font-size: 50px;
+                font-size: 20px;
                 text-transform: uppercase;
                 padding: 20px 0;
 
@@ -92,8 +92,8 @@
             background-color: transparent;
             width: auto;
             max-width: 100%;
-            padding: 8;
-            align-self: flex-start;
+            padding: 0;
+            align-self: flex-end;
         }
 
         .menu {

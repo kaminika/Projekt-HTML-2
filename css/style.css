@@ -336,7 +336,7 @@ section .section-header p {
   width: 100%;
   z-index: 9999;
   background-color: white;
-  padding: 12px, 0;
+  padding: 12px;
 }
 .main-nav .main-nav-holder {
   display: flex;
@@ -351,7 +351,7 @@ section .section-header p {
   height: 100%;
 }
 .main-nav .mobile-close, .main-nav .mobile-hamburger {
-  font-size: 28px;
+  font-size: 14px;
   line-height: 50px;
   cursor: pointer;
 }
@@ -381,7 +381,7 @@ section .section-header p {
   list-style: none;
 }
 .main-nav .open-menu-holder .menu .menu-item {
-  font-size: 50px;
+  font-size: 20px;
   text-transform: uppercase;
   padding: 20px 0;
 }
@@ -405,8 +405,8 @@ section .section-header p {
     background-color: transparent;
     width: auto;
     max-width: 100%;
-    padding: 8;
-    align-self: flex-start;
+    padding: 0;
+    align-self: flex-end;
   }
   .main-nav .menu {
     list-style: none;
@@ -523,7 +523,7 @@ section .section-header p {
   margin-bottom: 0;
 }
 .about .about-content {
-  max-width: 850px;
+  max-width: 1000px;
   font-weight: 300;
   margin: 0 auto;
   margin: 26px;
@@ -739,7 +739,7 @@ section .section-header p {
   padding: 25px;
   border-radius: 2px;
 }
-.infobox .infobox-innerhover {
+.infobox .infobox-inner:hover {
   box-shadow: 0 5px 20px #f0f0f0;
 }
 .infobox .infobox-inner .meta {
