@@ -564,7 +564,7 @@ section .section-header p {
   color: white;
 }
 @media all and (min-width: 768px) {
-  .services .service .service {
+  .services .service {
     height: 400px;
   }
 }
